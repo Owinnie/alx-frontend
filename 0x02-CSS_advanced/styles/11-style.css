@@ -31,7 +31,7 @@
     /*Text align: text-align*/
     --section-header-align: center;
 
-    /*Transformations: transform*/
+    /*Transformations: text-transform*/
     --section-tagline-transform: uppercase;
 }
 
@@ -68,7 +68,7 @@ a {
 .section-tagline {
     color: var(--color-primary);
     font-family: var(--font-family-title);
-    transform: var(--section-tagline-transform);
+    text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
 
